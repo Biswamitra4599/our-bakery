@@ -23,7 +23,7 @@ export default function IntroAnimation({ onComplete }) {
         }
         return prev + 1;
       });
-    }, 25);
+    }, 20);
 
     const quoteInterval = setInterval(() => {
       setQuoteIndex((prev) => (prev + 1) % quotes.length);
@@ -48,6 +48,25 @@ export default function IntroAnimation({ onComplete }) {
     }
   }, [progress, onComplete]);
 
+  // Deterministic sparkle layout based on index i to avoid Math.random() mismatch errors
+  const getSparkleStyle = (i) => {
+    const positions = [
+      { top: "15%", left: "12%", delay: "0.2s", duration: "3s", size: 16 },
+      { top: "25%", left: "80%", delay: "0.8s", duration: "4s", size: 24 },
+      { top: "75%", left: "15%", delay: "1.2s", duration: "3.5s", size: 20 },
+      { top: "80%", left: "85%", delay: "0.4s", duration: "4.5s", size: 18 },
+      { top: "30%", left: "45%", delay: "1.5s", duration: "3.2s", size: 22 },
+      { top: "60%", left: "55%", delay: "0.1s", duration: "5s", size: 16 },
+      { top: "45%", left: "20%", delay: "0.6s", duration: "4.2s", size: 28 },
+      { top: "18%", left: "65%", delay: "1.0s", duration: "3.8s", size: 20 },
+      { top: "70%", left: "35%", delay: "0.3s", duration: "4.7s", size: 16 },
+      { top: "85%", left: "50%", delay: "1.4s", duration: "3s", size: 22 },
+      { top: "40%", left: "88%", delay: "0.7s", duration: "4.1s", size: 24 },
+      { top: "62%", left: "10%", delay: "1.1s", duration: "3.6s", size: 18 },
+    ];
+    return positions[i % positions.length];
+  };
+
   return (
     <div
       className={`fixed inset-0 z-50 flex items-center justify-center bg-[#2D1B1E] transition-all duration-1000 ease-in-out ${
@@ -58,20 +77,23 @@ export default function IntroAnimation({ onComplete }) {
         <div className="absolute top-[20%] left-[10%] w-72 h-72 bg-[#B76E79]/10 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-[20%] right-[10%] w-96 h-96 bg-[#FFEAEB]/5 rounded-full blur-3xl animate-pulse" />
         
-        {[...Array(12)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute text-rosegold-300/40 animate-sparkles"
-            style={{
-              top: `${Math.random() * 80 + 10}%`,
-              left: `${Math.random() * 80 + 10}%`,
-              animationDelay: `${Math.random() * 2}s`,
-              animationDuration: `${Math.random() * 3 + 2}s`,
-            }}
-          >
-            <Sparkles size={Math.random() * 16 + 12} />
-          </div>
-        ))}
+        {Array.from({ length: 12 }).map((_, i) => {
+          const style = getSparkleStyle(i);
+          return (
+            <div
+              key={i}
+              className="absolute text-rosegold-300/40 animate-sparkles"
+              style={{
+                top: style.top,
+                left: style.left,
+                animationDelay: style.delay,
+                animationDuration: style.duration,
+              }}
+            >
+              <Sparkles size={style.size} />
+            </div>
+          );
+        })}
       </div>
 
       <div className="relative z-10 flex flex-col items-center max-w-md w-full px-6 text-center">
