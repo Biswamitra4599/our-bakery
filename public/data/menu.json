@@ -1,0 +1,93 @@
+{
+  "categories": ["All", "Cakes", "Macarons", "Croissants & Bread", "Coffee & Drinks"],
+  "menuItems": [
+    {
+      "id": "1",
+      "name": "Rose Gold Glazed Chiffon Cake",
+      "price": 14.5,
+      "description": "Light as air chiffon cake soaked in rosewater syrup, iced with blush pink buttercream and topped with 24k gold leaf flakes.",
+      "category": "Cakes",
+      "tags": ["Chef Special", "Signature Gold"],
+      "image": "https://images.pexels.com/photos/12124906/pexels-photo-12124906.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=500",
+      "rating": 4.9,
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "id": "2",
+      "name": "Rosewater & Raspberry Macarons",
+      "price": 18.0,
+      "description": "Delicate almond shells filled with an organic rosewater-infused white chocolate ganache and fresh raspberry compote core. (Box of 6)",
+      "category": "Macarons",
+      "tags": ["Gluten Free", "Best Seller"],
+      "image": "https://images.pexels.com/photos/7474223/pexels-photo-7474223.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=500",
+      "rating": 4.8,
+      "allergens": ["Nuts", "Dairy", "Eggs"]
+    },
+    {
+      "id": "3",
+      "name": "Flaky Rose Gold Croissant",
+      "price": 5.75,
+      "description": "81 layers of hand-laminated French butter pastry, baked golden brown and finished with a shimmer of edible copper-rose gold luster.",
+      "category": "Croissants & Bread",
+      "tags": ["Freshly Baked", "Signature Gold"],
+      "image": "https://images.pexels.com/photos/32713517/pexels-photo-32713517.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=500",
+      "rating": 4.7,
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "id": "4",
+      "name": "Blush Velvet Cupcake",
+      "price": 4.95,
+      "description": "Moist velvet cake base dyed naturally with beetroot juice, topped with high-swirl cream cheese frosting and sugar rose petals.",
+      "category": "Cakes",
+      "tags": ["Best Seller"],
+      "image": "https://images.pexels.com/photos/1179002/pexels-photo-1179002.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=500",
+      "rating": 4.9,
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "id": "5",
+      "name": "Rose Gold Cappuccino",
+      "price": 6.2,
+      "description": "Double espresso shot brewed with single-origin beans, steamed milk infused with rose-extract, finished with a gold dust stencil.",
+      "category": "Coffee & Drinks",
+      "tags": ["Signature Gold"],
+      "image": "https://images.pexels.com/photos/37875170/pexels-photo-37875170.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=500",
+      "rating": 4.6,
+      "allergens": ["Dairy"]
+    },
+    {
+      "id": "6",
+      "name": "Chocolate Blackberry Luxury Cake",
+      "price": 16.5,
+      "description": "Decadent dark chocolate sponge layered with blackberry reduction and dark cocoa ganache, decorated with purple orchid blooms.",
+      "category": "Cakes",
+      "tags": ["Chef Special"],
+      "image": "https://images.pexels.com/photos/28572191/pexels-photo-28572191.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=500",
+      "rating": 4.9,
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "id": "7",
+      "name": "Pistachio Blush Brioche",
+      "price": 6.5,
+      "description": "Rich egg-and-butter enriched dough filled with sweet Sicilian pistachio cream and coated in pink sugar glaze.",
+      "category": "Croissants & Bread",
+      "tags": ["New"],
+      "image": "https://images.pexels.com/photos/33034727/pexels-photo-33034727.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=500",
+      "rating": 4.5,
+      "allergens": ["Gluten", "Nuts", "Dairy", "Eggs"]
+    },
+    {
+      "id": "8",
+      "name": "Sparkling Rose Tea Infusion",
+      "price": 5.5,
+      "description": "Iced herbal white tea steeped with organic rose hips, hibiscus flowers, and carbonated for a refreshing floral bubbly finish.",
+      "category": "Coffee & Drinks",
+      "tags": ["Vegan", "Gluten Free"],
+      "image": "https://images.pexels.com/photos/32707858/pexels-photo-32707858.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=500",
+      "rating": 4.7,
+      "allergens": []
+    }
+  ]
+}
