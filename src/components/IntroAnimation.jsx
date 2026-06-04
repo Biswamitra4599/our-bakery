@@ -106,10 +106,10 @@ export default function IntroAnimation({ onComplete }) {
         </div>
 
         <h1 className="font-serif text-4xl md:text-5xl font-light tracking-wide text-rosegold-100 mb-2">
-          Maison de la Rose
+          Our's Bakery
         </h1>
         <p className="font-cursive text-2xl text-rosegold-300 mb-8">
-          Artisan Patisserie
+          Handcrafted Cakes & Pastries
         </p>
 
         <div className="h-8 mb-6 overflow-hidden relative w-full">

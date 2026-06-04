@@ -39,16 +39,16 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold tracking-wide text-white leading-tight">
-                  Maison de la Rose
+                  Our's Bakery
                 </span>
                 <span className="text-[10px] tracking-[0.25em] text-rosegold-400 uppercase font-sans">
-                  Artisan Patisserie
+                  Handcrafted Cakes & Pastries
                 </span>
               </div>
             </div>
 
             <p className="text-xs sm:text-sm text-rosegold-200/70 leading-relaxed font-sans font-light">
-              Crafting premium French baking experiences with modern blush aesthetics, finished with signature rose gold dust and pure edible gold accents.
+              Crafting exceptional baking experiences through premium ingredients, artisan techniques, and timeless craftsmanship. Every cake, pastry, and dessert is thoughtfully created to deliver beautiful presentation, unforgettable flavor, and moments worth celebrating.
             </p>
 
             <div className="flex items-center space-x-3 pt-2">
@@ -64,7 +64,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/oursbakerykgp/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-2 bg-[#3D2529] hover:bg-rosegold-600 text-rosegold-300 hover:text-white rounded-full transition-colors"
@@ -113,11 +113,11 @@ export default function Footer() {
             <ul className="space-y-3.5 text-xs text-rosegold-200/70 font-light font-sans">
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-rosegold-400 shrink-0 mt-0.5" />
-                <span>104 Rosewood Blvd, Blush Valley, CA 90210</span>
+                <span>Chota Tengra, Jhapatapur, Kharagpur, West Bengal 721301</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-rosegold-400 shrink-0" />
-                <span>(555) ROSE-GLD</span>
+                <span>+91 98301 23456</span>
               </li>
               <li className="flex items-start gap-3">
                 <Clock size={16} className="text-rosegold-400 shrink-0 mt-0.5" />
@@ -129,7 +129,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="md:col-span-3 space-y-4">
+          {/* <div className="md:col-span-3 space-y-4">
             <h4 className="font-serif text-sm font-bold text-white uppercase tracking-wider">
               Newsletter
             </h4>
@@ -163,14 +163,14 @@ export default function Footer() {
                 </span>
               )}
             </form>
-          </div>
+          </div> */}
 
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between pt-8 text-[11px] text-rosegold-200/50">
-          <p>© {new Date().getFullYear()} Maison de la Rose. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Our's Bakery. All rights reserved.</p>
           <p className="flex items-center gap-1 mt-2 sm:mt-0 font-light">
-            Made with <Heart size={10} className="text-rosegold-400 fill-rosegold-400 animate-pulse" /> for sweet lovers everywhere.
+            Made with <Heart size={10} className="text-rosegold-400 fill-rosegold-400 animate-pulse" /> for sweet lovers everywhere by Riqva Nexoyan Pvt. Ltd..
           </p>
         </div>
 

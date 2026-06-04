@@ -29,7 +29,7 @@ export default function Contact() {
             <div className="bg-white border border-rosegold-100 rounded-[32px] p-8 shadow-md space-y-8 flex-grow">
               <div className="flex items-center justify-between border-b border-rosegold-50 pb-4">
                 <h3 className="font-serif text-xl font-bold text-rosegold-800">
-                  Maison Patisserie Lounge
+                  Our's Bakery Lounge
                 </h3>
                 <span className="text-[10px] bg-rosegold-50 text-rosegold-600 font-bold px-2 py-0.5 rounded-full border border-rosegold-200 uppercase">
                   Dine-In & Pickups
