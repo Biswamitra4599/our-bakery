@@ -55,7 +55,7 @@ export default function MenuModal({ selectedItem, setSelectedItem }) {
                 {selectedItem.description}
               </p>
 
-              {selectedItem.allergens && selectedItem.allergens.length > 0 && (
+              {/* {selectedItem.allergens && selectedItem.allergens.length > 0 && (
                 <div className="pt-2">
                   <span className="text-[10px] uppercase font-bold text-rosegold-500 tracking-wider block mb-1.5">
                     Contains Allergens:
@@ -71,7 +71,7 @@ export default function MenuModal({ selectedItem, setSelectedItem }) {
                     ))}
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
 
             <div className="pt-6 border-t border-rosegold-100 flex items-center justify-between mt-6">

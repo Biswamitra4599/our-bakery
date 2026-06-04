@@ -6,9 +6,9 @@ export default function MenuFilters({
   setSelectedCategory
 }) {
   return (
-    <div className="flex items-center justify-center gap-2 overflow-x-auto pb-4 mb-12 w-full scrollbar-none">
-      <Filter size={16} className="text-rosegold-500 shrink-0 hidden sm:block" />
-      <div className="flex items-center gap-3">
+    <div className="overflow-x-auto pb-4 mb-12 w-full">
+      <div className="mx-auto flex w-max items-center gap-2 px-1">
+        <Filter size={16} className="text-rosegold-500 shrink-0 hidden sm:block" />
         {categories.map((cat) => (
           <button
             key={cat}

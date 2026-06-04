@@ -45,8 +45,8 @@ export default function Contact() {
                   <div>
                     <h4 className="font-serif font-bold text-rosegold-800 text-xs uppercase tracking-wider">Address</h4>
                     <p className="text-xs text-rosegold-700/80 mt-1 leading-relaxed">
-                      104 Rosewood Blvd, <br />
-                      Blush Valley, CA 90210
+                      Chota Tengra, Jhapatapur,<br />
+                      Kharagpur, West Bengal 721301 
                     </p>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-serif font-bold text-rosegold-800 text-xs uppercase tracking-wider">Phone</h4>
                     <p className="text-xs text-rosegold-700/80 mt-1">
-                      (555) ROSE-GLD
+                      98367-04752
                     </p>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Contact() {
 
               <div className="pt-4 border-t border-rosegold-50 flex flex-col sm:flex-row gap-4">
                 <a
-                  href="tel:+1555ROSEGLD"
+                  href="tel:+919836704752"
                   className="flex-1 py-3 px-4 bg-gradient-to-r from-rosegold-600 to-rosegold-400 hover:from-rosegold-500 hover:to-rosegold-300 text-white rounded-xl text-center text-xs font-bold uppercase tracking-wider shadow-sm transition-all flex items-center justify-center gap-2"
                 >
                   <Phone size={14} />
@@ -111,15 +111,18 @@ export default function Contact() {
           </div>
 
           <div className="lg:col-span-6 relative rounded-[32px] overflow-hidden border border-rosegold-200/50 shadow-md min-h-[350px]">
-            <div
-              className="absolute inset-0"
-              style={{
-                backgroundImage: "url('https://images.pexels.com/photos/20543564/pexels-photo-20543564.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=800&w=800')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                filter: "brightness(0.7) sepia(0.2) hue-rotate(320deg)",
-              }}
-            />
+            <div className="absolute inset-0">
+              <iframe
+                className="w-full h-full"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59050.82364893415!2d87.24716514863279!3d22.32807200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d45001815f975%3A0xfb5c18a2f7d7d298!2sOurs%20Bakery!5e0!3m2!1sen!2sin!4v1780600133933!5m2!1sen!2sin"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+
+              <div className="absolute inset-0 bg-black/40"></div>
+            </div>
             <div className="absolute inset-0 bg-gradient-to-t from-rosegold-950/80 via-rosegold-900/40 to-transparent" />
             
             <div className="absolute bottom-8 left-8 right-8 text-white space-y-4">
@@ -128,19 +131,19 @@ export default function Contact() {
                   <Compass size={16} className="animate-spin-slow" />
                 </span>
                 <div>
-                  <span className="text-[9px] uppercase font-bold tracking-widest text-rosegold-300 block">
+                  {/* <span className="text-[9px] uppercase font-bold tracking-widest text-rosegold-300 block">
                     Luxury Experiences
-                  </span>
+                  </span> */}
                   <h4 className="font-serif font-bold text-base">Interactive GPS Map</h4>
                 </div>
               </div>
               
-              <p className="text-xs text-rosegold-100/80 leading-relaxed font-sans font-light">
+              {/* <p className="text-xs text-rosegold-100/80 leading-relaxed font-sans font-light">
                 Our main patisserie is located right in the center of Blush Valley. Valet parking is available for all private events, wedding tasting consultations, and cake viewings.
-              </p>
+              </p> */}
 
               <a
-                href="https://maps.google.com"
+                href="https://maps.app.goo.gl/5DqLxQeDzL4aXHpx5"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-rosegold-800 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-rosegold-100 transition-colors shadow-lg"

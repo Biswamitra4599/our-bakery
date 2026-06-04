@@ -91,11 +91,11 @@ export default function About() {
             </h2>
 
             <p className="text-sm sm:text-base text-rosegold-700/80 leading-relaxed font-sans font-light">
-              Maison de la Rose was born out of a passion for luxury, beauty, and authentic French pastry craftsmanship. Founded by pastry master Chef Charlotte Laurent, we believe that baking is an art form. Every item is treated like a delicate jewel.
+              Welcome to Our's Bakery, where passion meets craftsmanship. Inspired by the timeless traditions of artisan baking, we create cakes, pastries, and desserts that are as beautiful as they are delicious. Using carefully selected ingredients and meticulous attention to detail, every creation is handcrafted to provide an unforgettable experience for every celebration and everyday indulgence.
             </p>
 
             <p className="text-sm sm:text-base text-rosegold-700/80 leading-relaxed font-sans font-light">
-              Our signature baking technique combines traditional wild-fermentation yeast, organic rosewater infusions, and luxury rose-gold embellishments. The result is a sensory escape: flaky textures, floral aromas, and a touch of gold dust that melts on your tongue.
+              Our signature baking techniques blend time-honored traditions with modern craftsmanship. Using carefully selected ingredients, slow-fermentation methods, and meticulous attention to detail, we create cakes, pastries, and desserts with exceptional flavor, texture, and freshness. The result is an unforgettable experience—delicate layers, rich aromas, and handcrafted creations designed to delight every sense.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6">

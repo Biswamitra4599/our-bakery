@@ -90,7 +90,7 @@ export default function MenuCard({ item, index, likedItems, toggleLike, setSelec
 
         <div className="flex items-center justify-between pt-5 mt-4 border-t border-rosegold-50">
           <span className="font-serif text-lg font-extrabold text-rosegold-900">
-            ${item.price.toFixed(2)}
+            ₹{item.price.toFixed(2)}
           </span>
           <span className="text-[10px] uppercase font-bold text-rosegold-500 tracking-wider flex items-center gap-1 hover:text-rosegold-700 transition-colors">
             <span>Details</span>
